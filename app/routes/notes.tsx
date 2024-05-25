@@ -55,3 +55,10 @@ export const CatchBoundary = () => {
         </main>
     )
 }
+
+export const meta = () => {
+    return {
+        title: 'All Notes',
+        description: 'A list of all notes in the app',
+    }
+}
